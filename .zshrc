@@ -10,10 +10,9 @@ autoload -Uz compinit
 compinit
 
 # Alias
-alias less='less -S'
 alias la='ls -alF'
 alias ls='ls -CF --color=auto'
-alias lss='ls | less'
+alias lss='ls | less -S'
 alias c='clear'
 
 # Java
