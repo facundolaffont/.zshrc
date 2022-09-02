@@ -20,3 +20,6 @@ alias img='~/Pictures'
 # Java
 export JAVA_PATH=/usr/lib/jvm/jdk-18/
 export PATH=$PATH:$JAVA_PATH"bin"
+
+# Autoloads
+autoload zmc # Enables multiple file renaming.
