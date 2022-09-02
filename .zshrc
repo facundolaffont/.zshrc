@@ -15,6 +15,7 @@ alias ls='ls -CF --color=auto'
 alias lss='ls | less -S'
 alias c='clear'
 alias h='man zshall'
+alias img='~/Pictures'
 
 # Java
 export JAVA_PATH=/usr/lib/jvm/jdk-18/
