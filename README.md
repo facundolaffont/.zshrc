@@ -1,5 +1,4 @@
-# zshrc
-Config file for Zsh shell.
+# Next
 
-## Next
-+ Make Java section optional, so as to be executed only if JDK is installed.
+## .zshrc
++ .Make Java section optional, so as to be executed only if JDK is installed.
