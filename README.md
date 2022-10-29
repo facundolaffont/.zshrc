@@ -12,7 +12,11 @@ Install by copying `.zshrc` to `~/`.
 
 ### [xmodmap](https://github.com/facundolaffont/linux-configs/blob/main/.xmodmaprc)
 
-Install by copying `.xmodmaprc` to `~/`.
+Install by copying `.xmodmaprc` to `~/` and append to your shell startup script the following line:
+
+```sh
+xmodmap ~/.xmodmaprc
+```
 
 ## Next
 
