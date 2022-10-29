@@ -10,12 +10,13 @@ alias c='clear'
 alias h='man zshall'
 alias img='~/Pictures'
 
+# zsh
+autoload zmc # Enables multiple file renaming.
+
 # Keyboard
-setxkbmap -option caps:swapescape # Only works for console.
+setxkbmap -option caps:swapescape
+xmodmap .xmodmaprc
 
 # Java
 export JAVA_PATH=/usr/lib/jvm/jdk-18/
 export PATH=$PATH:$JAVA_PATH"bin"
-
-# zsh
-autoload zmc # Enables multiple file renaming.
