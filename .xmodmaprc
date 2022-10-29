@@ -1,12 +1,12 @@
-! Explicit key codes and keysyms must be replaced
-! with the actual codes of your keyboard. To search
-! for them use xev command.
-
-! Swaps Caps Lock and Escape.
-remove Lock = Caps_Lock
-add Lock = Escape
-keysym Escape = Caps_Lock
-keysym Caps_Lock = Escape
+! Key codes and keysyms must be replaced with the actual
+! codes of your keyboard. To search for them use xev command.
+!
+! Caps Lock and Escape swapping has best results using:
+!
+!   setxkbmap -option caps:swapescape
+!
+! This is because changes made by xmodmap are only applied to
+! terminals, not to GUI applications.
 
 ! Makes Menu key act like Win key.
 keycode 135 = 0xffeb
