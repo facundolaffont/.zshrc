@@ -1,16 +1,20 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Swaps Caps Lock and Escape keys, and !
-! makes Manu key act like Win key (to  !
-! use it with i3 windows manager).     !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Explicit key codes and keysyms must be replaced
+! with the actual codes of your keyboard. To search
+! for them use xev command.
 
 ! Swaps Caps Lock and Escape.
 remove Lock = Caps_Lock
-add Lock = Espace
+add Lock = Escape
 keysym Escape = Caps_Lock
 keysym Caps_Lock = Escape
 
-! Makes Menu key act like Win key (codes
-! must be replaced with the actual codes
-! on your keyboard).
+! Makes Menu key act like Win key.
 keycode 135 = 0xffeb
+
+! Makes AltGr + A write a slash ('/' = keysym 0x002f).
+!                           Changed this ↓
+keycode 38 = 0x0061 0x0041 0x0061 0x0041 0x002f 0x00c6 0x00e6
+
+!  Makes AltGr + B write a backslash ('\' = keysym 0x005c).
+!                               Changed this ↓
+keycode 56 = 0x0062, 0x0042, 0x0062, 0x0042, 0x005c, 0x0ad1, 0x0ad3, 0x0ad1, 0x0062, 0x0042, 0x0ad3, 0x0ad1
