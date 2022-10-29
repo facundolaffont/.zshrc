@@ -1,6 +1,7 @@
 # Config files
 + [i3](https://github.com/facundolaffont/linux-configs/blob/main/.i3/config)
 + [zsh](https://github.com/facundolaffont/linux-configs/blob/main/.zshrc)
++ [xmodmap](https://raw.githubusercontent.com/facundolaffont/linux-configs/main/.xmodmaprc)
 
 # Next
 + [zsh] Make Java section optional, so as to be executed only if JDK is installed.
