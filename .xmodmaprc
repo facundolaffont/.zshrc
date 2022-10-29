@@ -1,0 +1,16 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Swaps Caps Lock and Escape keys, and !
+! makes Manu key act like Win key (to  !
+! use it with i3 windows manager).     !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! Swaps Caps Lock and Escape.
+remove Lock = Caps_Lock
+add Lock = Espace
+keysym Escape = Caps_Lock
+keysym Caps_Lock = Escape
+
+! Makes Menu key act like Win key (codes
+! must be replaced with the actual codes
+! on your keyboard).
+keycode 135 = 0xffeb
