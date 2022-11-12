@@ -6,6 +6,7 @@
 alias la='ls -alF'
 alias ls='ls -CF --color=auto'
 alias lss='ls | less -S'
+alias lsd='ls -ld'
 alias c='clear'
 alias h='man zshall'
 alias img='~/Pictures'
