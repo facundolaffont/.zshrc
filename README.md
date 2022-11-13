@@ -2,9 +2,9 @@
 
 ## Installation
 
-### [i3](https://github.com/facundolaffont/linux-configs/blob/main/config)
+### [i3](https://github.com/facundolaffont/linux-configs/blob/main/.config/i3/config)
 
-Install by copying `config` to `~/.config/i3/`.
+Install by copying `.config/i3` to `~/.config/i3/`.
 
 ### [zsh](https://github.com/facundolaffont/linux-configs/blob/main/.zshrc)
 
@@ -17,6 +17,10 @@ Install by copying `.xmodmaprc` to `~/` and append to your shell startup script 
 ```sh
 xmodmap ~/.xmodmaprc
 ```
+
+## [ssh](https://github.com/facundolaffont/linux-configs/blob/main/.ssh/config)
+
+Install by copying `.ssh/config` to `~/.ssh/`.
 
 ## Next
 
