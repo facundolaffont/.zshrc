@@ -2,6 +2,17 @@
 # Custom configs #
 ##################
 
+# Themes
+ZSH_THEME="ys"
+# jonathan
+# junkfood
+# pmcgee
+# Soliah
+# strug
+# suvash
+# trapd00r
+# UYSAL
+
 # Alias
 alias la='ls -alF'
 alias ls='ls -CF --color=auto'
@@ -11,7 +22,7 @@ alias c='clear'
 alias h='man zshall'
 alias img='~/Pictures'
 
-# zsh
+# Extensions
 autoload zmc # Enables multiple file renaming.
 
 # Keyboard
