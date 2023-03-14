@@ -27,6 +27,7 @@ autoload zmc # Enables multiple file renaming.
 
 # Keyboard
 setxkbmap -option caps:swapescape
+setxkbmap -option keypad:pointerkeys
 xmodmap .xmodmaprc
 
 # Java
