@@ -23,7 +23,6 @@ alias lsd='ls -ld'
 alias c='clear'
 alias h='man zshall'
 alias img='~/Pictures'
-alias h='man zshall'
 unalias gm
 
 # Extensions
