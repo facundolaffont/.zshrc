@@ -4,15 +4,37 @@
 
 ### [i3](https://github.com/facundolaffont/linux-configs/blob/main/.config/i3/config)
 
-Install by copying `.config/i3` to `~/.config/i3/`.
+Copy `.config/i3/config` to `~/.config/i3/`:
+
+```sh
+curl "https://raw.githubusercontent.com/facundolaffont/linux-configs/main/.config/i3/config" > ~/.config/i3/config
+```
 
 ### [zsh](https://github.com/facundolaffont/linux-configs/blob/main/.zshrc)
 
-Install by copying `.zshrc` to `~/`.
+Install zsh:
+
+```sh
+sudo apt-get install zsh
+```
+
+Append `.zshrc` to `~/.zshrc`:
+
+```sh
+curl "https://raw.githubusercontent.com/facundolaffont/linux-configs/main/.zshrc" >> ~/.zshrc
+```
+
+Install Oh-My-Zsh: [https://ohmyz.sh/#install](https://ohmyz.sh/#install).
 
 ### [xmodmap](https://github.com/facundolaffont/linux-configs/blob/main/.xmodmaprc)
 
-Install by copying `.xmodmaprc` to `~/` and append to your shell startup script the following line:
+Copy `.xmodmaprc` to `~/`:
+
+```sh
+curl "https://raw.githubusercontent.com/facundolaffont/linux-configs/main/.xmodmaprc" > ~/.xmodmaprc
+```
+
+Append to your shell startup script the following line:
 
 ```sh
 xmodmap ~/.xmodmaprc
@@ -20,7 +42,11 @@ xmodmap ~/.xmodmaprc
 
 ## [ssh](https://github.com/facundolaffont/linux-configs/blob/main/.ssh/config)
 
-Install by copying `.ssh/config` to `~/.ssh/`.
+Copy `.ssh/config` to `~/.ssh/`:
+
+```sh
+curl "https://raw.githubusercontent.com/facundolaffont/linux-configs/main/.ssh/config" > ~/.ssh/config
+```
 
 ## Next
 
