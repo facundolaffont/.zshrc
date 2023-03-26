@@ -27,3 +27,5 @@ Install by copying `.ssh/config` to `~/.ssh/`.
 + [zsh] Make Java section optional, so as to be executed only if JDK is installed.
 + [zsh] When GraphicsMagick is installed, there is a conflict between `gm` command and `gm` zsh default alias, so the script should check if GraphicsMagick is installed and change or remove the alias.
 + Make a bash script to automate installation, checking what is already installed and what is not.
++ Automate installations.
++ Make xmodmap execute .xmodmaprc script only if it exists.
