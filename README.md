@@ -51,7 +51,8 @@ curl "https://raw.githubusercontent.com/facundolaffont/linux-configs/main/.ssh/c
 ## Next
 
 + [zsh] Make Java section optional, so as to be executed only if JDK is installed.
-+ [zsh] When GraphicsMagick is installed, there is a conflict between `gm` command and `gm` zsh default alias, so the script should check if GraphicsMagick is installed and change or remove the alias.
++ [zsh] When GraphicsMagick is installed, there is a conflict between `gm` command and `gm` zsh default alias, so the script should check if GraphicsMagick is installed and change the alias.
++ [zsh] Fix theme changing: theme in .zshrc is not taking effect because the first ZSH_THEME, already in .zshrc original file, is beeing used.
++ [xmodmap] Make xmodmap execute .xmodmaprc script only if it exists.
 + Make a bash script to automate installation, checking what is already installed and what is not.
 + Automate installations.
-+ Make xmodmap execute .xmodmaprc script only if it exists.

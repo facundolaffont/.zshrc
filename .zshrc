@@ -23,7 +23,8 @@ alias lsd='ls -ld'
 alias c='clear'
 alias h='man zshall'
 alias img='~/Pictures'
-unalias gm
+alias dsall='docker stop $(docker ps -qa)'
+alias drall='docker stop $(docker ps -qa); docker rm $(docker ps -qa); docker rmi $(docker images -qa); docker volume rm $(docker volume ls -q)'
 
 # Extensions
 autoload zmc # Enables multiple file renaming.
