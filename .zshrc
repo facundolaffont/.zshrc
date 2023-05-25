@@ -16,6 +16,8 @@ ZSH_THEME="ys"
 # UYSAL
 
 # Aliases
+
+## General 
 alias la='ls -alF'
 alias ls='ls -CF --color=auto'
 alias lss='ls | less -S'
@@ -23,7 +25,9 @@ alias lsd='ls -ld'
 alias c='clear'
 alias h='man zshall'
 alias img='~/Pictures'
-alias dpsall='docker images; echo; docker ps -a'
+
+## Docker
+alias dpsall='docker images; echo; docker ps -a; echo; docker volume ls'
 alias dsall='docker stop $(docker ps -qa)'
 alias drmiall='docker stop $(docker ps -qa); echo; docker rm $(docker ps -qa); echo; docker rmi $(docker images -qa)'
 alias drmall='docker stop $(docker ps -qa); echo; docker rm $(docker ps -qa); echo; docker rmi $(docker images -qa); echo; docker volume rm $(docker volume ls -q)'
