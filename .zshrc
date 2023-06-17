@@ -25,12 +25,18 @@ alias lsd='ls -ld'
 alias c='clear'
 alias h='man zshall'
 alias img='~/Pictures'
+mans() {
+    man $1 | less -p'^[^ ].*$'
+}
 
 ## Docker
 alias dpsall='docker images; echo; docker ps -a; echo; docker volume ls'
 alias dsall='docker stop $(docker ps -qa)'
 alias drmiall='docker stop $(docker ps -qa); echo; docker rm $(docker ps -qa); echo; docker rmi $(docker images -qa)'
 alias drmall='docker stop $(docker ps -qa); echo; docker rm $(docker ps -qa); echo; docker rmi $(docker images -qa); echo; docker volume rm $(docker volume ls -q)'
+
+## Kubernetes
+alias k=kubectl
 
 # Extensions
 autoload zmc # Enables multiple file renaming.
